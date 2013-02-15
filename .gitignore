@@ -33,3 +33,9 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# for my homepage
+*.JPG
+.DS_Store
+*.db
+
