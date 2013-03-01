@@ -26,6 +26,9 @@ def main():
 	return render_template('main.html', lst=lst)
 
 from app.gallery.views import mod as galleryModule
+from app.god.views import mod as godModule
+
 app.register_blueprint(galleryModule)
+app.register_blueprint(godModule)
 
 

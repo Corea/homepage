@@ -5,6 +5,7 @@ class Album(db.Model):
 	__tablename__ = 'picutres_album'
 	id = db.Column(db.Integer, primary_key=True)
 	name = db.Column(db.String(64), nullable=False)
+	thumbnail = db.Column(db.String(64))
 	created_time = db.Column(db.DateTime, nullable=False)
 	updated_time = db.Column(db.DateTime, nullable=False)
 

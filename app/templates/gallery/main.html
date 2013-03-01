@@ -6,6 +6,12 @@
 {% block bodyclass %}gallery{% endblock %}
 
 {% block content %}
+		<h1>Album List</h1>
+		<ul id="AlbumList">
+			{% for data in album_list %}
+			<li>{{ data.name }}</li>
+			{% endfor %}
+		</ul>
 {% endblock %}
 
 {% block script %}
